@@ -9,3 +9,6 @@ This code was tested against the first beta of iOS 8.
 The sample project is an OS X command line for the sake of simplicity.
 
 Refer to main.swift to see how to use ObjectFactory.
+
+For more information about the project refer to this blog post:
+http://ijoshsmith.com/2014/06/05/instantiating-classes-by-name-in-swift/
