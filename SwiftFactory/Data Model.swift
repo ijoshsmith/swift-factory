@@ -11,7 +11,7 @@ import Foundation
 // Subclass NSObject to enable factory creation.
 class Person : NSObject
 {
-    init()             { self.name = "?"  }
+    override init()    { self.name = "?"  }
     init(name: String) { self.name = name }
     
     var name: String

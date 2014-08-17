@@ -15,7 +15,7 @@ func createPersonWithClassName(
     personName: String? = nil)
 {
     let qualifiedName = "\(namespace).\(className)"
-    if personName?
+    if personName != nil
     {
         if let person = PersonFactory.createInstance(
             className:   qualifiedName,
